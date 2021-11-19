@@ -1,0 +1,18 @@
+import time
+import os
+print("Добро пожаловать в Новости 6Б класса")
+time.sleep(1)
+myn=input("Введите Логин : ")
+myp=input("Введите Пароль : ")
+if(myn  == "Myha" and myp == "sergioRamoso8yeag") or (myn == "YanJot" and myp "serxioYanjotHackerYee") :
+    print("Добро пожаловать! , " + myn + ". Вы вошли в систему!")
+    time.sleep(1)
+    print("Выберите пункт")
+    time.sleep(1)
+    x=input("Введите 1 чтобы зайти в новости, нажмите 2 чтобы узнать о боте : ")
+if x == "1" :
+    print("Тут пока что пусто")
+if x == "2" : 
+    print("Тут будут написаны новости Класса")   
+else
+    print("Не верный логин и пароль")
